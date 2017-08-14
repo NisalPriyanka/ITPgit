@@ -1,0 +1,50 @@
+
+
+/* Fonts  */
+
+@font-face{
+	font-family:'defaultT';
+	src:url("../fonts/BOOKOS.TTF");	 
+}
+
+
+/*Body*/
+.jumbotron{
+	color:#B92C28;
+	font-weight:600;
+	font-size:xx-large;
+	display:block;
+	background:linear-gradient(to right, #C9D6FF, #E2E2E2);
+}
+
+.jumbotron:hover{
+	background:linear-gradient(to right, #d9a7c7 ,#fffcdc );
+}
+
+.job1{
+	background:linear-gradient(to right, #f05053, #e1eec3);
+	color:blue;
+	font-weight:700;
+}
+
+.border-right{
+	border-right:1px solid black;
+}
+
+.btn-mybtn {
+	font-size:smaller;
+	margin:0;
+	border-radius:0;
+	padding-right:15px;
+}
+
+.textReport{
+	border-bottom:1px solid red;
+	padding-bottom:10px;
+	font-size:x-large;
+	color:#000000;
+}
+
+
+
+
