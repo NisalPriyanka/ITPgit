@@ -18,6 +18,7 @@
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 		<link rel="stylesheet" href="Libraries/css/bootstrap.min.css" />
 		<script src="Libraries/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="CSS/pre_est_edit.css" type="text/css" />
 	</head>
 
 	<body>
@@ -42,9 +43,55 @@
 		</div>
 		</nav>
 		
+		<div style="padding-top:60px;"></div>
+		
 		<!--contents-->
 		<div class="container">
-			<div></div>
+			<!--heading-->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="headingTxt"><h2>Create New Estimate Sheet</h2></div>
+				</div>
+			</div> <!--end of heading-->
+			
+			
+		<div style="padding-top:50px;"></div>
+		<!--form-->
+<div class="panel1">
+	<form method="POST" action="" >
+		<div class="form-group">
+			<div class="row">
+				<div class="col-md-4">
+					<label for="vehicleNo">Vehicle No :</label> 
+					<input type="text" name="vehicleNo" class="form-control input-sm"/>
+				</div>
+				<div class="col-md-4">
+					<label>Insurance :</label> 
+					<input type="text" name="insurance" class="form-control input-sm"/>
+				</div>
+				<div class="col-md-4">
+					<label>model :</label> 
+					<input type="text" name="model" class="form-control input-sm"/>
+				</div>
+			</div>
+			<div style="padding-top:5px;"></div>
+			<div class="row">
+				<div class="col-md-4">
+					<label>Owner :</label> 
+					<input type="text" name="owner" class="form-control input-sm"/>
+				</div>
+				<div class="col-md-4">
+					<label>Color Code :</label> 
+					<input type="text" name="cCode" class="form-control input-sm"/>
+				</div>
+			</div>
+			
+			<!--LAST MODIFIED-->
+			
+		</div>
+		
+	</form>	
+</div>
 		</div>
 		
 	</body>

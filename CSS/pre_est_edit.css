@@ -1,3 +1,20 @@
 body {
 
 }
+
+.headingTxt
+{
+	text-align:center;
+	background-color:#D5F5E3;
+	padding:2px 6px 15px;
+	border-radius:5px;
+	border-bottom:1px solid red; 
+}
+
+.panel1{
+	
+	background-color:#F5EEF8;
+	padding:10px;
+	
+}
+
