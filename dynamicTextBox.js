@@ -23,10 +23,15 @@ function addTextBox(name,place)
 	
 	element.setAttribute("type","text");
 	element.setAttribute("class","form-control input-sm");
+<<<<<<< HEAD
 	element.setAttribute("name",name+count);
 	element.setAttribute("value",name+count);
 	
 	alert(name);
+=======
+	element.setAttribute("name","tt"+count);
+	element.setAttribute("value","tt"+count);
+>>>>>>> f91c36ca958f8063dc3bdb329e030ec241d87599
 	
 	//placing textBox when button click
 	
