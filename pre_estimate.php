@@ -19,6 +19,7 @@
 		<link rel="stylesheet" href="Libraries/css/bootstrap.min.css" />
 		<script src="Libraries/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="CSS/pre_est_edit.css" type="text/css" />
+		<script src="dynamicTextBox.js" type="text/javascript" ></script>
 	</head>
 
 	<body>
@@ -41,7 +42,7 @@
           </ul>
         </div><!--/.nav-collapse -->
 		</div>
-		</nav>
+		</nav> 
 		
 		<div style="padding-top:60px;"></div>
 		
@@ -85,14 +86,42 @@
 					<input type="text" name="cCode" class="form-control input-sm"/>
 				</div>
 			</div>
-			
-			<!--LAST MODIFIED-->
-			
-		</div>
 		
-	</form>	
-</div>
+			<div style="padding-top:20px;"></div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-responsive">
+					<table class="table table-bordered">
+						<thead>
+						<tr><th>Description</th><th>Value (Rs.)</th></tr> 
+						</thead>
+							<tr>
+								<td>
+									<p style="font-weight:700; color:brown;">To be supplied Iteams (Purchasing Iteams / To be replaced Iteams)</p>
+									<p id="tboxR1"></p>
+									<input type="button" onclick="addTextBox(); addTextBoxValues();" value="Add" class="btn btn-primary btn-sm" />
+									
+								</td>
+								<td>
+									<p style="font-weight:700; color:brown;">Iteam Values</p>
+									<p id="vboxR1"></p>
+									
+								</td>
+							</tr>
+							
+							<!--Last Modified-->
+							
+					</table>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+		</div><!--end of form-group-->
+  </div> <!--endOf Panel Design block -->	
+	</form>	<!--end of form-->
+
 		</div>
-		
 	</body>
 </html>
