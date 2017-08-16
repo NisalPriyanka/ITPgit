@@ -99,7 +99,7 @@
 								<td>
 									<p style="font-weight:700; color:brown;">To be supplied Iteams (Purchasing Iteams / To be replaced Iteams)</p>
 									<p id="tboxR1"></p>
-									<input type="button" onClick="addTextBox('desHf','tboxR1')" class="btn btn-primary" value="Add" />
+									<input type="button" onClick="addTextBox('desHf','tboxR1'); addTextBoxValues('valHf','vboxR1');" class="btn btn-primary" value="Add" />
 									
 								</td>
 								<td>
