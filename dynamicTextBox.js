@@ -2,6 +2,8 @@
  * @author Nisal
  */
 
+//description values
+
 var count = 0;
 
 function incrementCount()
@@ -9,7 +11,7 @@ function incrementCount()
 	count++;
 }
 
-function addTextBox()
+function addTextBox(name,place)
 {
 	incrementCount();
 	
@@ -21,21 +23,23 @@ function addTextBox()
 	
 	element.setAttribute("type","text");
 	element.setAttribute("class","form-control input-sm");
-	element.setAttribute("name","desHf"+count);
-	element.setAttribute("value","desHf"+count);
+	element.setAttribute("name",name+count);
+	element.setAttribute("value",name+count);
+	
+	alert(name);
 	
 	//placing textBox when button click
 	
-	var place = document.getElementById("tboxR1");
+	var getplace = document.getElementById(place);
 
-	place.appendChild(element);
-	place.appendChild(space);
+	getplace.appendChild(element);
+	getplace.appendChild(space);
 	
 	
 }
 
 //add praticluar textBox for get value
-function addTextBoxValues()
+function addTextBoxValues(name,place)
 {
 	
 	
@@ -47,15 +51,22 @@ function addTextBoxValues()
 	
 	element.setAttribute("type","number");
 	element.setAttribute("class","form-control input-sm");
-	element.setAttribute("name","desRf"+count);
-	element.setAttribute("value","desRf"+count);
+	element.setAttribute("name",name+count);
+	element.setAttribute("value",name+count);
+	
+	
 	
 	//placing textBox when button click
 	
-	var place = document.getElementById("vboxR1");
+	var place = document.getElementById(place);
 
 	place.appendChild(element);
 	place.appendChild(space);
 	
+	
+}
+
+function deleteTextBox()
+{
 	
 }

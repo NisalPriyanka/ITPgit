@@ -17,9 +17,9 @@
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 		<link rel="stylesheet" href="Libraries/css/bootstrap.min.css" />
-		<script src="Libraries/js/bootstrap.min.js"></script>
+		<script src="Libraries/js/bootstrap.min.js"></script> 
 		<link rel="stylesheet" href="CSS/pre_est_edit.css" type="text/css" />
-		<script src="dynamicTextBox.js" type="text/javascript" ></script>
+		<script type="text/javascript" src="dynamicTextBox.js"></script>
 	</head>
 
 	<body>
@@ -99,7 +99,7 @@
 								<td>
 									<p style="font-weight:700; color:brown;">To be supplied Iteams (Purchasing Iteams / To be replaced Iteams)</p>
 									<p id="tboxR1"></p>
-									<input type="button" onclick="addTextBox(); addTextBoxValues();" value="Add" class="btn btn-primary btn-sm" />
+									<input type="button" onClick="addTextBox('desHf','tboxR1')" class="btn btn-primary" value="Add" />
 									
 								</td>
 								<td>
@@ -110,6 +110,8 @@
 							</tr>
 							
 							<!--Last Modified-->
+							
+							
 							
 					</table>
 					</div>
