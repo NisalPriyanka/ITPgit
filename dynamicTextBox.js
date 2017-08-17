@@ -21,8 +21,8 @@ function addTextBox()
 	
 	element.setAttribute("type","text");
 	element.setAttribute("class","form-control input-sm");
-	element.setAttribute("name","desHf"+count);
-	element.setAttribute("value","desHf"+count);
+	element.setAttribute("name","t"+count);
+	element.setAttribute("value","t"+count);
 	
 	//placing textBox when button click
 	
