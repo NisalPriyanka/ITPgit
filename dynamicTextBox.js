@@ -26,7 +26,7 @@ function addTextBox(name,place)
 	element.setAttribute("name",name+count);
 	element.setAttribute("value",name+count);
 	
-	alert(name);
+	
 	
 	//placing textBox when button click
 	
